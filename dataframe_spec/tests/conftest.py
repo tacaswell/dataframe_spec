@@ -12,7 +12,7 @@ _test_cases = [
         "b": np.array(["a", "b", "c"]),
         "c": np.array([1.0, 2.0, 3.0]),
     },
-    {"a": np.array([1, 2, 3]), "c": np.array([1.0, 2.0, 3.0]),},
+    {"a": np.array([1, 2, 3]), "c": np.array([1.0, 2.0, 3.0])},
 ]
 
 
