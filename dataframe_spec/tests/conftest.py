@@ -22,7 +22,8 @@ def _echo_factory(inp):
 
 def _pandas_factory(inp):
     pd = pytest.importorskip("pandas")
-    return pd.DataFrame(inp)
+    df = pd.DataFrame(inp)
+    return {k: df[k] for k in df}
 
 
 @pytest.fixture(params=[_echo_factory, _pandas_factory], ids=["echo", "pandas"])
