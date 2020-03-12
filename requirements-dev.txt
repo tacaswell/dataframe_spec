@@ -5,6 +5,8 @@ coverage
 flake8
 pytest
 sphinx
+h5py
+pandas
 # These are dependencies of various sphinx extensions for documentation.
 ipython
 matplotlib
