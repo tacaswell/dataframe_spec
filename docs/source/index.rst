@@ -6,6 +6,20 @@
 dataframe_spec Documentation
 ============================
 
+This was inspired by a discussion_ initiated by Gael Varoquaux about
+defining a restricted API/protocol to define how dataframe-like
+data structures can be used by down-stream libraries.  In particular
+this implements the suggestion_
+
+    The return value of __dataframe_interface__() should be a Python
+    dict with values that are each convertible to a 1D array, all of
+    which must have the same length.
+
+with some slight modifications.  Inspired by `Promise/A+ <https://promisesaplus.com/>`_  this is the start compliance test suite.
+
+.. _discussion: https://discuss.ossdata.org/t/a-dataframe-protocol-for-the-pydata-ecosystem/267
+.. _suggestion: https://discuss.ossdata.org/t/a-dataframe-protocol-for-the-pydata-ecosystem/267/3
+
 .. toctree::
    :maxdepth: 2
 
