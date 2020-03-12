@@ -48,6 +48,7 @@ class TestCols:
             assert test.ndim == 1
             assert np.all(test == baseline[n][slc])
 
+    @pytest.mark.level(1)
     def test_binary_mask(self, df_factory, baseline, col_convert):
         "Test that bool mask selection works."
         df = df_factory(baseline)
