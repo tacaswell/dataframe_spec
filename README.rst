@@ -2,8 +2,8 @@
 dataframe_spec
 ==============
 
-.. image:: https://img.shields.io/travis/tacaswell/dataframe_spec.svg
-        :target: https://travis-ci.org/tacaswell/dataframe_spec
+.. image:: https://travis-ci.com/tacaswell/dataframe_spec.svg?branch=master
+    :target: https://travis-ci.com/tacaswell/dataframe_spec
 
 .. image:: https://img.shields.io/pypi/v/dataframe_spec.svg
         :target: https://pypi.python.org/pypi/dataframe_spec
